@@ -46,10 +46,11 @@
                 <li class="places">Sundarban</li>
                 <li class="places">Bandarban</li>
                 <li class="places">Katabon</li>
-                <li>Shalbon</li>
+                <li class="places"> Shalbon</li>
             </ul>
         </section>
     </main>
+
     <script src="js/append.js"></script>
     <script src="js/dom.js"></script>
     <script>
@@ -72,8 +73,18 @@
         // To pick the likha ( loop calai access korbo )
         for(const li of particular){
             console.log(li.innerText);
+        }
+
+        // Now let's grab the ==> placed Ttile <===
+        const second_section_place_title = document.querySelectorAll('.large-text li')
+        // console.log(second_section_place_title);
+        for (const li of second_section_place_title){
+            console.log(li.innerText);
 
         }
+
+
+
 
 
 
